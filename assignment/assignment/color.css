@@ -1,0 +1,45 @@
+
+body{
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+header{
+    background-color: aqua;
+    margin-bottom: 10rem;
+}
+
+nav{
+    text-align: right;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+img{
+    width: 500;
+    height: 333;
+    align-items: center;
+}
+
+footer{
+   position: fixed;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.photo{
+    border-style:solid ;
+    border-color: black;
+    border-width: 6px ;
+    padding: 6px;
+    display: flex;
+}

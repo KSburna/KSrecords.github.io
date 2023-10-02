@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flexbox;
+}
+
+body{
+    background-color: white;
+    color: black;
+    }
+
+
+header{
+    background-color: grey;
+    margin: 0px;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 8px solid silver;
+    border-style:outset;
+    overflow: auto;
+    max-width: 100%;
+ 
+   
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-family:cursive
+}
+
+h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+nav{
+    text-align: right;
+    font-size: 20px;
+    word-spacing: 5px;
+    
+    
+}
+
+a{
+    color: blue
+    
+}
+
+.text1{
+    text-align: center;
+}
+
+.video {
+    max-width: auto;
+    overflow: auto;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+footer{
+   border-style: outset 6px silver;
+   border: 6px solid silver;
+   background: black;
+   color: white;
+   margin: 0px;
+    padding: 40px;
+   max-width: 100%;
+}
+  
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+
+
+}
+   
+
+
+.contact{
+    background-color: white;
+
+}
+
+
+
+    .photo1{
+        border: 5px solid black;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row-reverse;
+
+        
+    }
+
+    
+
+    .photo2{
+        border: black;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2rem;
+    display: flex;
+    max-width: 1000px;
+   
+    
+    
+    }
+
+.records{
+   max-width: 10px;
+   height: 10px;
+
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    max-width: 100%;
+    
+    
+
+}
+
+.artist{
+    text-align: center;
+
+}
+
+table{
+    
+    margin: 0px;
+    text-align: center;
+    border-spacing: 50px;
+    display: flex;
+    max-height: fit-content;
+    min-width: fit-content;
+    
+ 
+}
+
+
+
+th, td{
+   border: 8px solid black;
+   border-style: outset;
+   border-radius: 7px;
+   font-size: 20px;
+   align-items: center;
+   
+   margin: 0%;
+}
+
+
+form{
+    align-content: center;
+}
+
+.contact{
+    background-color: white;
+}
+
+input{
+  max-width: 200px;
+}
+
+.button{
+    align-items: center;
+   
+    
+}
+
+textarea{
+    resize: vertical;
+    max-height: 100px;
+    
+    margin-left: px;
+    
+
+}
+#pat{
+
+    width: 100px;
+    height: auto;
+}
+
+select{
+    font-size: 10px;
+}
+
+.home{
+    display: contents;
+}
+
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0px;
+    
+ 
+
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+    .photo{
+        max-width: 90%;
+        font-size: 8px;
+    }
+    img{
+        max-width: 100% ;
+    }
+    
+   
+
+    
+
+
+      
+
+      @media screen and (min-width: 400px) {
+        .col-25, .col-75, input[type=submit] {
+         max-width: 100%;
+          margin-top: 0;
+         
+        
+        }
+
+        .video{
+            width: 100%;
+           
+        }
+
+        .container2{
+            max-width: auto;
+        }
+
+        
+
+      
+    }
+@media screen (max-width 320px) {}
+    
+}
